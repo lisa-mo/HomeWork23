@@ -52,9 +52,9 @@ public class IframeTest extends BaseTest {
         Dimension i = driver.manage().window().getSize();
         int yIn = i.getHeight();
 
-//        robot.mouseMove(xIn, yIn);
+        robot.mouseMove(xIn, yIn-50);
 //        The coordinates below were changed to make them near to our button, but just (xIn, yIn) will work too.
-        robot.mouseMove(xIn+40, yIn-30);
+//        robot.mouseMove(xIn+40, yIn-50);
         wait.until(ExpectedConditions.visibilityOfElementLocated(pauseBtn));
         Assert.assertTrue(stopButtonCheck.isDisplayed());
 //        driver.findElement(pauseBtn).click();

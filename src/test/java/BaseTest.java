@@ -37,10 +37,10 @@ public class BaseTest {
         robot = new Robot();
     }
 
-    @AfterClass
-    public void closeDriver() {
-        driver.quit();
-    }
+//    @AfterClass
+//    public void closeDriver() {
+//        driver.quit();
+//    }
 
     public void waitForPageLoaded() {
         ExpectedCondition<Boolean> expectation = new
