@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Home Work 23" configfailurepolicy="continue" >
+    <test name="Test: Home Work #23">
+        <classes>
+            <class name="GmailTest"/>
+            <class name="CookiesTest"/>
+            <class name="IframeTest"/>
+            <class name="DragAndDropTest"/>
+        </classes>
+    </test>
+</suite>
